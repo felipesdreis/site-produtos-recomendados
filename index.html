@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Recommendations</title>
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://i.pinimg.com/280x280_RS/fb/61/ba/fb61ba12a612237fb6206bc631a92bad.jpg">
+
+</head>
+<header class="profile-header">
+    <div class="profile-container">
+      <img src="https://i.pinimg.com/280x280_RS/fb/61/ba/fb61ba12a612237fb6206bc631a92bad.jpg" alt="Foto de Perfil" class="profile-picture">
+      <span class="username">@felipesdreis</span>
+    </div>
+  </header>
+<body>
+    <div class="container mt-5">
+        <h3 class="text-center mb-4">Produtos Recomendados</h3>
+      <div class="search-container">
+          <input type="text" id="search-bar" placeholder="Pesquisar produtos...">
+          <button id="clear-search" type="button">Limpar</button>
+      </div>
+      <div class="row" id="products-container"></div>
+    </div>
+    <!-- Bootstrap and Popper.js CDN for JS components -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.0.0/dist/papaparse.min.js"></script>
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+
+    
+</body>
+<footer class="footer">
+  <p>Todos os produtos aqui recomendados são produtos que tenho ou já tive a oportunidade de testar.</p>
+</footer>
+
+</html>
