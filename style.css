@@ -1,0 +1,94 @@
+/* Custom styles can go here */
+.product-card img {
+    height: 200px; /* Altura fixa */
+    width: 100%; /* A largura é geralmente definida como 100% para manter a responsividade */
+    object-fit: cover; /* Isso fará com que a imagem cubra o espaço disponível sem distorcer */
+}
+
+
+/* You might not need the following CSS if Bootstrap's classes are sufficient */
+.product-card {
+    transition: transform 0.2s;
+    background-color: #16463f;
+}
+
+.product-card h5{
+  color: #eac1c6;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.profile-header {
+    background-color: #16463f; /* Cor de fundo do cabeçalho */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .profile-container {
+    display: inline-flex; /* Alinha os itens horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    gap: 10px; /* Espaço entre a imagem e o texto */
+  }
+  
+  .profile-picture {
+    width: 80px; /* Largura fixa para a imagem */
+    height: 80px; /* Altura fixa para a imagem */
+    border-radius: 50%; /* Faz a imagem circular */
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorção */
+    border: 3px solid white; /* Borda branca ao redor da imagem */
+  }
+  
+  .username {
+    font-weight: bold;
+    color: white; /* Cor do texto */
+  }
+
+  .search-container {
+    display: flex;
+    gap: 10px; /* Espaço entre o campo de pesquisa e o botão */
+    margin-bottom: 2rem;
+}
+
+#search-bar {
+    flex-grow: 1; /* O campo de pesquisa ocupa o espaço restante */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#clear-search {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+#clear-search:hover {
+    background-color: #e2e2e2; /* Efeito ao passar o mouse */
+}
+
+body{
+  background-color: #e7e1d5;
+}
+
+.footer {
+  background-color: #f8f9fa; /* Cor de fundo do rodapé */
+  color: #6c757d; /* Cor do texto */
+  text-align: center; /* Alinha o texto ao centro */
+  padding: 20px; /* Espaço interno para maior legibilidade */
+  border-top: 1px solid #e7e7e7; /* Linha separadora */
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+  
+}
+
+.footer p {
+  margin-top: 0; /* Remove a margem padrão para <p> */
+  font-size: 14px; /* Tamanho de fonte menor para a nota de rodapé */
+}
