@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
         `;
         
-        card.onclick = () => window.location.href = product.LinkProduto;
+        card.onclick = () => window.open(product.LinkProduto, '_blank');
         col.appendChild(card);
         container.appendChild(col);
     });
