@@ -5,6 +5,11 @@ var products = [
         "LinkImagem": "https://i.pinimg.com/564x/7b/25/0b/7b250b6cc02590d4290e27daca26121f.jpg"
     },   
     {
+        "NomeProduto": "Timer de Mesa H.Rebos",
+        "LinkProduto": "https://shope.ee/o4kduT6p",
+        "LinkImagem": "https://i.pinimg.com/736x/39/46/48/3946483e86dedbd4c4b388a4bdfb59cf.jpg"
+    },   
+    {
         "NomeProduto": "QCY T13 ANC",
         "LinkProduto": "https://shope.ee/1AzmFIxbIg",
         "LinkImagem": "https://i.pinimg.com/736x/86/c2/7a/86c27a77a5a5e7de8d97ae48d10b8c05.jpg"
