@@ -13,7 +13,7 @@
 }
 
 .product-card h5{
-  color: #a37e2c;
+  color: #deb1a1;
 }
 
 .product-card:hover {
@@ -37,7 +37,7 @@
     height: 80px; /* Altura fixa para a imagem */
     border-radius: 50%; /* Faz a imagem circular */
     object-fit: cover; /* Garante que a imagem cubra o espaço sem distorção */
-    border: 3px solid #f3dfbd; /* Borda branca ao redor da imagem */
+    border: 3px solid #a37e2c; /* Borda branca ao redor da imagem */
   }
   
   .username {
