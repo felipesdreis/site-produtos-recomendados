@@ -9,7 +9,7 @@
 /* You might not need the following CSS if Bootstrap's classes are sufficient */
 .product-card {
     transition: transform 0.2s;
-    background-color: #16463f;
+    background-color: #005e37;
 }
 
 .product-card h5{
@@ -21,7 +21,7 @@
 }
 
 .profile-header {
-    background-color: #16463f; /* Cor de fundo do cabeçalho */
+    background-color: #005e37; /* Cor de fundo do cabeçalho */
     padding: 10px;
     text-align: center;
   }
@@ -37,7 +37,7 @@
     height: 80px; /* Altura fixa para a imagem */
     border-radius: 50%; /* Faz a imagem circular */
     object-fit: cover; /* Garante que a imagem cubra o espaço sem distorção */
-    border: 3px solid white; /* Borda branca ao redor da imagem */
+    border: 3px solid #a37e2c; /* Borda branca ao redor da imagem */
   }
   
   .username {
